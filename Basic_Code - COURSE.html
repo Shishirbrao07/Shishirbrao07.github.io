@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title> Artificial Intelligence </title>
+    <link rel="stylesheet" href="Styling.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Basic_Code - INDEX.html"><img src="/Saved Pictures/AI_Icon_2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Basic_Code - INDEX.html">HOME</a></li>
+                    <li><a href="Basic_Code - CONTACT.html">BIRTH OF AI</a></li>
+                    <li><a href="Basic_Code -BLOG.html">HISTORY</a></li>
+                    <li><a href="Basic_Code - COURSE.html">DOMAINS</a></li>
+                    <li><a href="Basic_Code - ABOUT.html">PROS & CONS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <H1>Domains<H1>
+</section>
+
+<!-----Domains----->
+<section class="course">
+    <h1>Domains of AI</h1>
+    <p>There are 3 Domains of AI - </p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Data</h3>
+        <p>Data is explained as facts and statistics collected together for reference or analysis. Data is the foundation of Artificial Intelligence. AI techniques are based on a lot of data which the algorithm is trained on to form models. There are 3 types of Data: Audio/Sound Data for Voice Recognition Systems, Textual Data for Automatic Classifying Systems & Multimedia for Computer Vision (CV).</p>   
+        <center><iframe width="300" height="200" src="https://www.youtube.com/embed/Bn9jfoQ5PIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    </div>
+    <div class="course-col">
+        <h3>Natural Language Processing (NLP)</h3>
+        <p>Natural Language Processing, usually shortened as NLP, is a branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. 
+
+            The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable.</p>
+            <center><iframe width="300" height="200" src="https://www.youtube.com/embed/IIaYk2hIYKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
+    <div class="course-col">
+        <h3>Computer Vision</h3>
+        <p>Computer vision is an interdisciplinary scientific field that deals with how computers can gain high-level understanding from digital images or videos. From the perspective of engineering, it seeks to understand and automate tasks that the human visual system can do.</p>
+        <center><br><br><iframe width="300" height="200" src="https://www.youtube.com/embed/xXgnmKcnyTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    </div>
+
+
+
+</section>
+
+
+<!-------Amenities----->
+<section class="Amenities">
+    <h1>A.I. in Games</h1> 
+    <p>The following are the games, whose mechanism keeps one of the 3 domains of AI in prominence:</p>
+
+<div class="row">
+    <div class="facilities-col">
+        <img src="/Saved Pictures/Rock, Paper, Scissors.png">
+        <h3> Rock, Paper and Scissors</h3>
+        <p>This is a game based on Data for AI where the machine tries to predict the next move of the participant. It is a replica of basic rock, paper and scissors game where the machine tries to win ahead by learning from the participant’s previous moves. The software is empowered by Learning Algorithms and is an example of Adaptive A.I. </p>
+    </div>
+    <div class="facilities-col">
+        <img src="/Saved Pictures/Mystery Animal.jpg">
+        <h3>Mystery Animal</h3>
+        <p>This is a game based on Natural Language Processing (NLP) where the participant has to guess the animal by asking maximum 20 questions to AI. The animal randomly gets selected for each game by AI and the machine replies in either yes or no. </p>
+        </div>
+    <div class="facilities-col">
+        <img src="/Saved Pictures/Emoji Scavenger Hunt.jpg">
+        <h3> Emoji Scavenger Hunt </h3>
+        <p>This is a game based on Computer Vision where the machine initiates the game by showing an Emoji. The participant is expected to show a similar object in front of the camera while the machine constantly tries to guess what is being shown. 
+        </p>
+        </div>
+</div>
+
+
+</section>
+
+
+
+</section>
+
+<!-----Footer---------->
+<section class="footer">
+    <h4> About Me </h4>
+    <p>Shishir B Rao <br> IX C <br> BN/14592 <br> <img src="/Saved Pictures/Gmail_Icon.png" width=1%> shishirbalaji01@gmail.com</p>
+    <div class ="icons">
+        <img src="/Saved Pictures/AI_Icon.jpg">
+        <img src="/Saved Pictures/DPS_Logo.png">
+        <img src="/Saved Pictures/AI_Logo.png">
+        <img src="/Saved Pictures/7th-Grade-DPS-Uniform-Photo.JPG">
+        
+    </div>
+    <p>Made Using CSS and HTML</p>
+    
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu (){
+            navLinks.style.right = "0"
+        }
+        function hideMenu (){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
